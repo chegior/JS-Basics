@@ -6,6 +6,14 @@ var name = 'Tyler';
 
   //Code Here
 
+  function isTyler(name){
+    if (name === "Tyler"){
+      return true;
+    }else{
+    return false;
+    }
+  }
+
 //////////////////PROBLEM 2////////////////////
 
 
