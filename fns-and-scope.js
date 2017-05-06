@@ -37,8 +37,8 @@ function getName (){
 
   //Code Here
 function welcome( ){
-  var name = prompt("Please enter your name", "Your Name here");
-    return console.log("Welcome " + name);
+  var name = getName();
+    alert("Welcome, " + name);
 
 }
 
@@ -76,10 +76,11 @@ function welcome( ){
 
   //Code Here
 
-var newMyName = myName();
+var newMyName = myName;
 //Now alert the result of invoking newMyName
 
 alert(newMyName);
+
 
 //////////////////PROBLEM 7////////////////////
 
@@ -89,11 +90,11 @@ alert(newMyName);
 
   //Code Here
 
-  function anonymous(){
+  
+  function outerFn(){
+    return function anonymous(){
     return "Chedro";
   }
-  function outerFn(){
-    return anonymous();
   }
 
 
