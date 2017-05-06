@@ -22,6 +22,11 @@ var name = 'Tyler';
 
   //Code Here
 
+function getName (){
+    var name = prompt("Please enter your name", "Your Name here");
+    return name;
+  }
+
 
 //////////////////PROBLEM 3////////////////////
 
