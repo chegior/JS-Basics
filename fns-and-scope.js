@@ -36,17 +36,18 @@ function getName (){
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
+function welcome( ){
+  var name = prompt("Please enter your name", "Your Name here");
+    return console.log("Welcome " + name);
 
+}
 
 //////////////////PROBLEM 4////////////////////
-
-
 
 
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
 
 //////////////////PROBLEM 5////////////////////
 
@@ -66,7 +67,9 @@ function getName (){
 //Create a function called myName that returns your name
 
   //Code Here
-  
+  function myName(){
+    return "Chedro";
+  }
 
 
 //Now save the function definition of myName into a new variable called newMyName
