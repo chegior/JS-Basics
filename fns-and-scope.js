@@ -76,9 +76,10 @@ function welcome( ){
 
   //Code Here
 
+var newMyName = myName();
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName);
 
 //////////////////PROBLEM 7////////////////////
 
@@ -88,8 +89,21 @@ function welcome( ){
 
   //Code Here
 
+  function anonymous(){
+    return "Chedro";
+  }
+  function outerFn(){
+    return anonymous();
+  }
+
+
+
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
 
+var innerFn = outerFn();
+
 //Now invoke innerFn.
+
+innerFn;
